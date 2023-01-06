@@ -10,7 +10,11 @@ I really like to make recipes from the New York Times cooking website, but the w
 
 ### Usability Principles Considered
 
+I wanted to keep the filter and sorting cateogries clear at the top, and I chose checkboxes since it made the most sense out of any other type of marker/button. Checkboxes were necessary since I wanted the users to be able to toggle and stack filters, and checkboxes most easily allowed for that functionality. I considered a radio button for the sorting button, but since radio buttons are required, I opted for a checkbox instead to indicate that you could also return to the plain, unsorted version.
+
 ### Organization of Components
+
+I used a "BakeryItem" component (leftover fromt the React lab) as a way to store the recipe/food cards, which used json data that was passed through a map to store and render different recipes.
 
 ### How Data is Passed Down Through Components
 
